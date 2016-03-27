@@ -4,9 +4,11 @@
 
 Sometimes it's hard to keep up with your Netflix movie queue. Sometimes, all you need is a Friday night to binge watch Scandal.
 
-We're going to use arrays to manipulate our own movie Queue.
+We're going to use lists to manipulate our own movie queue.
 
-Open this lab in Nitrous. Run `learn` in terminal to run the Rspec tests. Use those tests as guidance to code your solution in `movies.rb`.
+Open this lab locally. Run `learn` in terminal to run the tests. Use those tests as a guide to code your solution in `movies.py`.
+
+Each of the methods below should have one parameter, a list of movies, which will be altered by the method.
 
 ###Step 1: 
 
