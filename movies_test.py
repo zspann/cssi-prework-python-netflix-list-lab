@@ -15,7 +15,7 @@ class TestMovies(unittest.TestCase):
 
     def test_add_to_queue(self):
         movie_list = ["The Shawshank Redemption", "Wall-E", "The Dark Knight Rises", "George of the Jungle", "Fargo"]
-        updated_movie_list = ["The Shawshank Redemption", "Wall-E", "The Dark Knight Rises", "George of the Jungle", "Fargo"]
+        updated_movie_list = ["The Shawshank Redemption", "Wall-E", "The Dark Knight Rises", "George of the Jungle", "Fargo", "Amadeus"]
         self.assertEqual(add_to_queue(movie_list, "Amadeus"), updated_movie_list)
     
     def test_view_queue(self):
