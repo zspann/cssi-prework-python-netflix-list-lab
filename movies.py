@@ -9,6 +9,7 @@ def first_movie(movie_list):
 
 def watch_next_movie(movie_list):
   del(movie_list[0])
+  return movie_list
 
 #3. Define a method add_to_queue that returns the updated array
 # This method takes two arguments (the array of movies and the movie you want to add to the end of the queue)
@@ -21,3 +22,10 @@ def add_to_queue(movie_list, movie):
 # This method returns a numbered list of movies in order.
 
 
+def view_queue(movie_list):
+  main_string = ""
+  i = 1
+  for movie in movie_list:
+    main_string += "{}. {}\n".format(i,movie)
+    i+=1
+  return main_string
